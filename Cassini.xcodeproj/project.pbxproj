@@ -8,20 +8,22 @@
 
 /* Begin PBXBuildFile section */
 		8696443B206E8A6200C1FA90 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8696443A206E8A6200C1FA90 /* AppDelegate.swift */; };
-		8696443D206E8A6200C1FA90 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8696443C206E8A6200C1FA90 /* ViewController.swift */; };
 		86964440206E8A6200C1FA90 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8696443E206E8A6200C1FA90 /* Main.storyboard */; };
 		86964442206E8A6200C1FA90 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 86964441206E8A6200C1FA90 /* Assets.xcassets */; };
 		86964445206E8A6200C1FA90 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 86964443206E8A6200C1FA90 /* LaunchScreen.storyboard */; };
+		8696444F206E8B0500C1FA90 /* ImageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8696444E206E8B0500C1FA90 /* ImageViewController.swift */; };
+		86964451206E8EE600C1FA90 /* DemoURLs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86964450206E8EE600C1FA90 /* DemoURLs.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		86964437206E8A6200C1FA90 /* Cassini.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Cassini.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8696443A206E8A6200C1FA90 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		8696443C206E8A6200C1FA90 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		8696443F206E8A6200C1FA90 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		86964441206E8A6200C1FA90 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		86964444206E8A6200C1FA90 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		86964446206E8A6200C1FA90 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8696444E206E8B0500C1FA90 /* ImageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageViewController.swift; sourceTree = "<group>"; };
+		86964450206E8EE600C1FA90 /* DemoURLs.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DemoURLs.swift; path = "../../../Downloads/CS193P-Fall-2017-DEMO-master/Cassini L9/Cassini/DemoURLs.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,14 +56,23 @@
 		86964439206E8A6200C1FA90 /* Cassini */ = {
 			isa = PBXGroup;
 			children = (
-				8696443A206E8A6200C1FA90 /* AppDelegate.swift */,
-				8696443C206E8A6200C1FA90 /* ViewController.swift */,
+				8696444D206E8A8500C1FA90 /* Supporting Files */,
 				8696443E206E8A6200C1FA90 /* Main.storyboard */,
-				86964441206E8A6200C1FA90 /* Assets.xcassets */,
-				86964443206E8A6200C1FA90 /* LaunchScreen.storyboard */,
+				86964450206E8EE600C1FA90 /* DemoURLs.swift */,
+				8696444E206E8B0500C1FA90 /* ImageViewController.swift */,
 				86964446206E8A6200C1FA90 /* Info.plist */,
 			);
 			path = Cassini;
+			sourceTree = "<group>";
+		};
+		8696444D206E8A8500C1FA90 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8696443A206E8A6200C1FA90 /* AppDelegate.swift */,
+				86964441206E8A6200C1FA90 /* Assets.xcassets */,
+				86964443206E8A6200C1FA90 /* LaunchScreen.storyboard */,
+			);
+			path = "Supporting Files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -136,8 +147,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8696443D206E8A6200C1FA90 /* ViewController.swift in Sources */,
+				8696444F206E8B0500C1FA90 /* ImageViewController.swift in Sources */,
 				8696443B206E8A6200C1FA90 /* AppDelegate.swift in Sources */,
+				86964451206E8EE600C1FA90 /* DemoURLs.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
